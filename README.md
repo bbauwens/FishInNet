@@ -4,10 +4,15 @@ FIN is a web app where users can log their catch. The web app will display, loca
 The executive summary:
 
 
-Installation:
+## Installation:
 
 
-Getting Started:
+## Getting Started:
 
 
-License:
+# License:
+The MIT License (MIT)
+
+Copyright (c) Benjamin D. Bauwens 2026
+
+insert MIT License text here
