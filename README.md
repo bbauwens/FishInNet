@@ -1,7 +1,6 @@
 # FishInNet
-FIN is a web app where users can log their catch. The web app will display, location general area, lakes, baits, photos, weather.
-
-The executive summary:
+Fish In Net or (FIN) for short, is a web app where users can log their catch so it doesn't turn out to be just another fishing story! The web app will allow the user to share the location or general area (privacy is still imporant, and keeping those secret spots a secret!!) with pictures. The app will allow users to share the lakes, baits, photos, weather for an area you plan on going to fish to put a fish in the net to name a few features. In this case for proof of concept we will be using local fishing lakes to the city of Omaha to better depict our use, and then show our vision for further expansion to more than just lakes but also possible hiking trails to take while on way to fish!
+//add more
 
 
 ## Installation:
