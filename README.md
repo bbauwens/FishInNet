@@ -11,11 +11,17 @@ Software Needed/Used for install
 
 BASH CLI Commands
 Setting Up the Django App
+
 git clone https://github.com/bbauwens/FishInNet.git
+
 cd FishInNet
+
 docker compose build
+
 docker compose up -d
+
 docker compose exec web python manage.py migrate
+
 python manage.py migrate
 
 
