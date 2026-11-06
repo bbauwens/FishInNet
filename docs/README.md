@@ -22,6 +22,14 @@ In addition to the user stories identify the ways in which users might be able t
 
 Mitigation Criteria
 For each mis-user story identify at least one mitigation criteria. The mitigation criteria define the set of requirements that tell you when you are done protecting against the mis-user story.
+--
+As an active angler, I want to create an account to be a part of this community so I can participate in the FishInNet community experience.
+As a registered angler, I want to log into my account so I can create posts 
+
+Mis-user stories
+
+Mitigation Criteria
+
 
 # Diagrams
 
