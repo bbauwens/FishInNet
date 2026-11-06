@@ -102,38 +102,50 @@ Mis-user stories
 As a malicious unregistered angler I want to make posts and comments without making an account.
 
 Mitigation Criteria:
+-Authentication that user is registered to make a post.
+-Accounts not registered are rejected.
 
 As a malicious unregistered angler I want to have the abilities of a registered account.
 
 Mitigation Criteria:
+-Authentication prevents ability to see account abilities.
 
 As a malicious registered angler I want to log into / log out of someone else's account.
 
 Mitigation Criteria:
+-Authentication rejects ability to log in.
 
 As a malicious registered angler I want to edit, change, or delete someone's account.
 
 Mitigation Criteria:
+-Unauthorized account is rejected from others accounts.
 
 As a malicious registered angler I want to edit, change, or delete someone's post.
 
 Mitigation Criteria:
+-Unauthorize account is rejected from others posts.
 
 As a malicious registered angler I want to turn on location data and see specific location of private fishing spots.
 
 Mitigation Criteria:
+-Different location specific options prevent data shown.
 
 As a malicious fishing conservation activist I want to edit, create, or delete conservation event post.
 
 Mitigation Criteria:
+-Account privilege separation prevents this.
 
 As a malicious MasterAngler (Administrator of the site) I want to be able to edit/create/delete conservation events.
 
 Mitigation Criteria:
+-Alternative accounts to MasterAngler do not have permissions outside of view only.
+-Authentication mechanisms prevent access.
 
 As a malicious MasterAngler (Administrator of the site I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts. 
 
 Mitigation Criteria:
+-Administrators can remove negative atmosphere / false info.
+-Administrators approve or deny posts in community posts.
 
 
 
