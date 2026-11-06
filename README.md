@@ -30,7 +30,7 @@ docker compose run app django-admin startproject webservices .
 docker compose up -d
 
 (Runs migrations)
-docker compose exec web python manage.py migrate
+docker compose exec app python manage.py migrate
 
 (Creates super user admin for use in the admin interface for container)
 docker compose exec web python manage.py createsuperuser
