@@ -23,6 +23,9 @@ cd FishInNet
 (Builds Docker image)
 docker compose build
 
+(Create webservice config files)
+docker compose run app django-admin startproject webservices .
+
 (Starts containers in background)
 docker compose up -d
 
