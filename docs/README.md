@@ -25,24 +25,60 @@ For each mis-user story identify at least one mitigation criteria. The mitigatio
 --
 As an inactive angler, I want to view the feed the community is contributing to, so I can stay up to date with catches and conservation efforts.
 
+Acceptance criteria
+
+
 As an active angler, I want to create an account to be a part of this community so I can participate in the FishInNet community experience.
+
+Acceptance criteria
+
 
 As a registered angler, I want to log into my account, so I can create posts and contribute to the community.
 
+
+Acceptance criteria
+
+
 As a registered angler, I want to create posts and contribute to the community, so I can provide my expertise to the community.
+
+
+Acceptance criteria
+
 
 As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so other anglers can compare for best fishing experience.
 
+
+Acceptance criteria
+
+
 As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight.
+
+
+Acceptance criteria
+
 
 As a registered angler, I want to control my location data, so I can keep some hotspots private so they aren't overfished.
 
+
+Acceptance criteria
+
+
 As a fishing conservation activist, I want to view conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
+
+
+Acceptance criteria
+
 
 As a MasterAngler (Administrator of the site), I want to be able to create community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
 
+
+Acceptance criteria
+
+
 As a MasterAngler (Administrator of the site), I want to moderate posts, so I can prevent a negative atmosphere and misleading data.
 
+
+Acceptance criteria
 
 
 
