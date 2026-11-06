@@ -8,7 +8,7 @@ Software Needed/Used for install
 
 -Git: Installed on your local machine.
 
--Docker: Installed and running on your local machine.
+-Docker Desktop: Installed and running on your local machine.
 
 
 BASH CLI Commands
