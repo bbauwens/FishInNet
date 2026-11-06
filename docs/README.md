@@ -99,7 +99,44 @@ Acceptance criteria
 
 Mis-user stories
 
-Mitigation Criteria
+As a malicious unregistered angler I want to make posts and comments without making an account.
+
+Mitigation Criteria:
+
+As a malicious unregistered angler I want to have the abilities of a registered account.
+
+Mitigation Criteria:
+
+As a malicious registered angler I want to log into / log out of someone else's account.
+
+Mitigation Criteria:
+
+As a malicious registered angler I want to edit, change, or delete someone's account.
+
+Mitigation Criteria:
+
+As a malicious registered angler I want to edit, change, or delete someone's post.
+
+Mitigation Criteria:
+
+As a malicious registered angler I want to turn on location data and see specific location of private fishing spots.
+
+Mitigation Criteria:
+
+As a malicious fishing conservation activist I want to edit, create, or delete conservation event post.
+
+Mitigation Criteria:
+
+As a malicious MasterAngler (Administrator of the site) I want to be able to edit/create/delete conservation events.
+
+Mitigation Criteria:
+
+As a malicious MasterAngler (Administrator of the site I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts. 
+
+Mitigation Criteria:
+
+
+
 
 
 # Diagrams
