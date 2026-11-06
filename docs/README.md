@@ -22,3 +22,7 @@ In addition to the user stories identify the ways in which users might be able t
 
 Mitigation Criteria
 For each mis-user story identify at least one mitigation criteria. The mitigation criteria define the set of requirements that tell you when you are done protecting against the mis-user story.
+
+# Diagrams
+
+# Prototype
