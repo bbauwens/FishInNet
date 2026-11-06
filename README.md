@@ -15,24 +15,27 @@ BASH CLI Commands
 Setting Up the Django App
 
 (Creates a clone of the repository)
+
 git clone https://github.com/bbauwens/FishInNet.git
 
 (Changes to the directory)
+
 cd FishInNet
 
 (Builds Docker image)
+
 docker compose build
 
-(Create webservice config files) // may remove this step since i'll have these pushed to my repository here
-docker compose run app django-admin startproject webservices .
-
 (Starts containers in background)
+
 docker compose up -d
 
 (Runs migrations)
+
 docker compose exec app python manage.py migrate
 
 (Creates super user admin for use in the admin interface for container)
+
 docker compose exec app python manage.py createsuperuser
 
 
