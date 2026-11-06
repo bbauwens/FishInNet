@@ -5,7 +5,9 @@ Fish In Net or (FIN) for short, is a web app where anglers can log their catch s
 
 ## Installation:
 Software Needed/Used for install
+
 -Git: Installed on your local machine.
+
 -Docker: Installed and running on your local machine.
 
 
