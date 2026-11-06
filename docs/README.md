@@ -23,13 +23,27 @@ In addition to the user stories identify the ways in which users might be able t
 Mitigation Criteria
 For each mis-user story identify at least one mitigation criteria. The mitigation criteria define the set of requirements that tell you when you are done protecting against the mis-user story.
 --
-As a guest, I want to view the feed the community is contributing to, so I can stay up to date with catches and conservation efforts.
+As an inactive angler, I want to view the feed the community is contributing to, so I can stay up to date with catches and conservation efforts.
 
 As an active angler, I want to create an account to be a part of this community so I can participate in the FishInNet community experience.
 
 As a registered angler, I want to log into my account, so I can create posts and contribute to the community.
 
 As a registered angler, I want to create posts and contribute to the community, so I can provide my expertise to the community.
+
+As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so other anglers can compare for best fishing experience.
+
+As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight.
+
+As a registered angler, I want to control my location data, so I can keep some hotspots private so they aren't overfished.
+
+As a fishing conservation activist, I want to view conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
+
+As a MasterAngler (Administrator of the site), I want to be able to create community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
+
+As a MasterAngler (Administrator of the site), I want to moderate posts, so I can prevent a negative atmosphere and misleading data.
+
+
 
 
 
