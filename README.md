@@ -4,6 +4,21 @@ Fish In Net or (FIN) for short, is a web app where anglers can log their catch s
 
 
 ## Installation:
+Software Needed/Used for install
+-Git: Installed on your local machine.
+-Docker: Installed and running on your local machine.
+
+
+BASH CLI Commands
+Setting Up the Django App
+git clone https://github.com/bbauwens/FishInNet.git
+cd FishInNet
+docker compose build
+docker compose up -d
+docker compose exec web python manage.py migrate
+python manage.py migrate
+
+
 
 
 ## Getting Started:
