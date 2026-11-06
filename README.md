@@ -23,7 +23,7 @@ cd FishInNet
 (Builds Docker image)
 docker compose build
 
-(Create webservice config files)
+(Create webservice config files) // may remove this step since i'll have these pushed to my repository here
 docker compose run app django-admin startproject webservices .
 
 (Starts containers in background)
@@ -33,7 +33,7 @@ docker compose up -d
 docker compose exec app python manage.py migrate
 
 (Creates super user admin for use in the admin interface for container)
-docker compose exec web python manage.py createsuperuser
+docker compose exec app python manage.py createsuperuser
 
 
 
