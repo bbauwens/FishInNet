@@ -1,4 +1,5 @@
 #User stories
+
 The stories
 For milestone 1, define the most important user stories for your product. Pay careful attention to structure the user stories as we discussed in lecture. Specifically, submit your user stories using the following template. Include them as markdown in a README.md file located within a folder called docs within your main project repository.
 
