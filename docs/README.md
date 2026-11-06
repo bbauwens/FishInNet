@@ -1,3 +1,5 @@
+# User stories
+
 The stories
 For milestone 1, define the most important user stories for your product. Pay careful attention to structure the user stories as we discussed in lecture. Specifically, submit your user stories using the following template. Include them as markdown in a README.md file located within a folder called docs within your main project repository.
 
@@ -20,3 +22,20 @@ In addition to the user stories identify the ways in which users might be able t
 
 Mitigation Criteria
 For each mis-user story identify at least one mitigation criteria. The mitigation criteria define the set of requirements that tell you when you are done protecting against the mis-user story.
+--
+As a guest, I want to view the feed the community is contributing to, so I can stay up to date with catch and conservation efforts.
+
+As an active angler, I want to create an account to be a part of this community so I can participate in the FishInNet community experience.
+
+As a registered angler, I want to log into my account, so I can create posts and contribute to the community.
+
+
+
+Mis-user stories
+
+Mitigation Criteria
+
+
+# Diagrams
+
+# Prototype
