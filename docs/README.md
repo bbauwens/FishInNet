@@ -1,4 +1,4 @@
-# User stories
+ # User stories
 As an unregistered angler, I want to view the feed the community is contributing to, so I can stay up to date with catches and conservation efforts.
 
 Acceptance criteria:
@@ -156,7 +156,7 @@ Mitigation Criteria:
 
 
 
-As a malicious registered angler I want to gain unauthorized access to another anglers account.
+As a malicious registered angler I want to gain unauthorized access to another anglers account to impersonate and access their private account information.
 
 Mitigation Criteria:
 
@@ -164,7 +164,11 @@ Mitigation Criteria:
 
 -Anglers can log out which terminates their sessions.
 
--Login attempts are protected from brute force attempts and only allow for 3 attempts before the account is locked.
+-Login attempts are protected from brute force attempts 
+
+-Anglers are notfied by the system of invalid login attempts after 3 incorrect log ins.
+
+-No private information will be provided to end user to give hints at the account.
 
 
 
@@ -179,17 +183,29 @@ Mitigation Criteria:
 -Verification of an account's authorization to make changes to account are checked.
 
 
-As a malicious registered angler I want to edit, change, or delete someone's post.
+As a malicious registered angler I want to edit, change, or delete someone's post so I can influence the information share with the FIN community.
 
 Mitigation Criteria:
 
--Unauthorize account is rejected from others posts.
+-Only authorized angler accounts are able to edit, change or delete their own posts.
 
-As a malicious registered angler I want to turn on location data and see specific location of private fishing spots.
+-Only MasterAngler accounts can moderate other users' posts.
+
+-Unauthorized requests to edit change or delete someone's post are rejected by the system.
+
+
+
+As a malicious registered angler I want to turn on location data and see specific location of private fishing spots so I can find and exploit the fishing location.
 
 Mitigation Criteria:
 
--Different location specific options prevent data shown.
+-Different location specific options prevent data shown which prevent exact locations exposure.
+
+-Private location information is not returned to unauthorized accounts.
+
+-Anglers can control their location whether they want it on or off.
+
+
 
 As a malicious fishing conservation activist I want to edit, create, or delete conservation event post.
 
