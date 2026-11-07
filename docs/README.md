@@ -8,6 +8,7 @@ Acceptance criteria:
 -Unable to comment or make posts.
 
 
+
 As an unregistered angler, I want to create an account to be a part of this community so I can participate in the FishInNet community experience.
 
 Acceptance criteria
@@ -23,6 +24,7 @@ Acceptance criteria
 -Password security requirements.
 
 
+
 As a registered angler, I want to log into my account, so I can create posts and contribute to the community.
 
 Acceptance criteria
@@ -32,6 +34,7 @@ Acceptance criteria
 -Wrong password or username rejects log in.
 
 -Upon logging out, user will need to reauthenticate for an active session.
+
 
 
 As a registered angler, I want to create posts and contribute to the community, so I can provide my expertise to the community.
@@ -47,6 +50,7 @@ Acceptance criteria
 
 
 
+
 As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so other anglers can compare for best fishing experience.
 
 
@@ -55,6 +59,7 @@ Acceptance criteria
 -Ability to share data on lake, fishing technique, bait, and weather condition.
 
 -Posts are connected to authenticated registered angler's account.
+
 
 
 As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight.
@@ -69,6 +74,7 @@ Acceptance criteria
 -Commenter / liker is the authenticated user commenting or liking the post.
 
 
+
 As a registered angler, I want to control my location data, so I can keep some hotspots private so they aren't overfished.
 
 
@@ -81,6 +87,7 @@ Acceptance criteria
 -Location preference is shown.
 
 
+
 As a fishing conservation activist, I want to view conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
 
 
@@ -89,6 +96,7 @@ Acceptance criteria
 -Ability to view conservation events.
 
 -Unable to edit/create/delete conservation events.
+
 
 
 As a MasterAngler (Administrator of the site), I want to be able to edit/create/delete community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
@@ -101,6 +109,7 @@ Acceptance criteria
 -Ability to edit/create/delete conservation events.
 
 -Ability to set the date for the event.
+
 
 
 As a MasterAngler (Administrator of the site), I want to moderate posts and manage user accounts, so I can prevent a negative atmosphere, misleading, or inappropriate data.
