@@ -21,7 +21,7 @@ Acceptance criteria
 
 -Ability to see after account creation new abilities such as commenting, creating, and liking posts.
 
--Password security requirements.
+-Passwords must contain at least 8 characters in length with one character at least being capitalized and one unique character.
 
 
 
@@ -33,7 +33,7 @@ Acceptance criteria
 
 -Wrong password or username rejects log in.
 
--Upon logging out, user will need to reauthenticate for an active session.
+-Upon logging out user session will no longer be active, user will need to reauthenticate for an active session.
 
 
 
@@ -44,7 +44,7 @@ Acceptance criteria
 
 -Ability to create posts and comment.
 
--Ability to delete a post.
+-Ability to edit and delete a post.
 
 -Posts are connected to authenticated registered angler's account.
 
@@ -67,11 +67,15 @@ As a registered angler, I want to comment and like other anglers posts, so I can
 
 Acceptance criteria
 
--Ability to comment and like with created username.
+-Ability to comment and like with created angler account.
+
+-Anglers are restricted to one like to one authenticated angler account making the like.
+
+-Anglers can remove their one authenticated angler account like at any time.
 
 -Unable to edit or delete other anglers post.
 
--Commenter / liker is the authenticated user commenting or liking the post.
+-The angler commenter or liker is the authenticated user commenting or liking the post.
 
 
 
@@ -80,11 +84,15 @@ As a registered angler, I want to control my FIN location data, so I can keep so
 
 Acceptance criteria
 
--Ability to control location data turn off/on
+-Ability to control location data turn off and on
 
--Ability to select preference on specific, general, or private location.
+-Ability to select preference on specific, general, or private fishing location.
 
--Location preference is shown.
+-Fishing location preference is shown.
+
+-Selected fishing location privacy settings are enforced by the system.
+
+-Fishing private locations are not exposed to unauthorized anglers.
 
 
 
@@ -166,7 +174,7 @@ Mitigation Criteria:
 
 -Login attempts are protected from brute force attempts 
 
--Anglers are notfied by the system of invalid login attempts after 3 incorrect log ins.
+-Anglers are notified by the authorized system of invalid login attempts after 3 incorrect log ins.
 
 -No private information will be provided to end user to give hints at the account.
 
