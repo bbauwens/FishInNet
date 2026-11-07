@@ -21,7 +21,7 @@ Acceptance criteria
 
 -Ability to see after account creation new abilities such as commenting, creating, and liking posts.
 
--Passwords must contain at least 8 characters in length with one character at least being capitalized and one unique character.
+-Passwords must contain at least 8 characters, with one character being capitalized and one being a special character.
 
 
 
@@ -44,7 +44,7 @@ Acceptance criteria
 
 -Ability to create posts and comment.
 
--Ability to edit and delete a post.
+-Ability to edit and delete the angler's own post.
 
 -Posts are connected to authenticated registered angler's account.
 
@@ -174,9 +174,11 @@ Mitigation Criteria:
 
 -Login attempts are protected from brute force attempts 
 
--Anglers are notified by the authorized system of invalid login attempts after 3 incorrect log ins.
+-Anglers are notified by the verified and authorized system of invalid login attempts after three incorrect logins.
 
--No private information will be provided to end user to give hints at the account.
+-Login messages will not say if it was a username issue or password issue.
+
+-No identifying information from a registered email will display if user forgets username, they will need to enter their email and if it matches one in the records it will send to that email but not give a confirmation if it sent successfully.
 
 
 
@@ -215,6 +217,17 @@ Mitigation Criteria:
 
 
 
+As a malicious registered angler, I want to upload a malicious or wrong formatted image to exploit FIN application or it's community.
+
+Mitigation Criteria:
+
+-File format restrictions to JPEG/JPG, PNG, HEIC/HEIF.
+
+-File size restrictions to less than 8 Megabyte.
+
+-Uploaded images will be verified and validated before being put in database.
+
+
 As a malicious fishing conservation activist I want to edit, create, or delete conservation event post.
 
 Mitigation Criteria:
@@ -235,7 +248,7 @@ Mitigation Criteria:
 
 -Authentication and authorization mechanisms prevent non MasterAngler accounts from making changes.
 
--Audit logs are recorded at changes to the FIN community conservation efforts page.
+-Audit logs are recorded at changes to the FIN community conservation efforts page by MasterAngler account name and timestamp.
 
 
 
