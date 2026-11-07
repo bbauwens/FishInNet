@@ -62,7 +62,7 @@ Acceptance criteria
 
 
 
-As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight.
+As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight on fishing experience and insights.
 
 
 Acceptance criteria
