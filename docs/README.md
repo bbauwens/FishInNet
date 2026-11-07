@@ -211,23 +211,35 @@ As a malicious fishing conservation activist I want to edit, create, or delete c
 
 Mitigation Criteria:
 
--Account privilege separation prevents this.
+-Fishing conservation activist accounts are read only permission and prevent any editing.
 
-As a malicious MasterAngler (Administrator of the site) I want to be able to edit/create/delete conservation events.
+-Only authorized MasterAngler accounts can edit, create, or delete conservation event posts.
+
+-Unauthorized change requests to edit, create, or delete are rejected by the system.
+
+
+
+As a malicious registered angler, I want to gain unauthorized access to MasterAngler account to be able to edit/create/delete conservation events to prevent FIN community conservation efforts.
 
 Mitigation Criteria:
 
--Alternative accounts to MasterAngler do not have permissions outside of view only.
+-Alternative account controls to MasterAngler do not have permissions to adjust conservation efforts controls.
 
--Authentication mechanisms prevent access.
+-Authentication and authorization mechanisms prevent non MasterAngler accounts from making changes.
+
+-Audit logs are recorded at changes to the FIN community conservation efforts page.
+
+
 
 As a malicious MasterAngler (Administrator of the site I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts. 
 
 Mitigation Criteria:
 
--Administrators can remove negative atmosphere / false info.
+-MasterAngler accounts can remove negative atmosphere / false info that do not follow FIN community guidelines.
 
--Administrators approve or deny posts in community posts.
+-MasterAngler accounts only can edit or deny posts in community posts.
+
+-MasterAngler accounts permissions are authenticated with assigned MasterAngler account.
 
 
 
