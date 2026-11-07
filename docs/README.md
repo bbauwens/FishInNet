@@ -4,6 +4,7 @@ As an unregistered angler, I want to view the feed the community is contributing
 Acceptance criteria:
 
 -Ability to view the public posts of registered anglers and conservation events.
+
 -Unable to comment or make posts.
 
 
@@ -12,6 +13,7 @@ As an unregistered angler, I want to create an account to be a part of this comm
 Acceptance criteria
 
 -Ability to create an account.
+
 -Ability to see after account creation new abilities such as commenting, creating, and liking posts.
 
 As a registered angler, I want to log into my account, so I can create posts and contribute to the community.
@@ -20,6 +22,7 @@ As a registered angler, I want to log into my account, so I can create posts and
 Acceptance criteria
 
 -Ability to log into account and log out.
+
 -Wrong password or username rejects log in.
 
 
@@ -29,6 +32,7 @@ As a registered angler, I want to create posts and contribute to the community, 
 Acceptance criteria
 
 -Ability to create posts and comment.
+
 -Ability to delete a post.
 
 As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so other anglers can compare for best fishing experience.
@@ -37,6 +41,7 @@ As a registered angler, I want to share information about the lake, fishing tech
 Acceptance criteria
 
 -Ability to share data on lake, fishing technique, bait, and weather condition.
+
 -Post belongs to their username
 
 As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight.
@@ -45,6 +50,7 @@ As a registered angler, I want to comment and like other anglers posts, so I can
 Acceptance criteria
 
 -Ability to comment and like with created username.
+
 -Unable to edit or delete other anglers post.
 
 
@@ -54,7 +60,9 @@ As a registered angler, I want to control my location data, so I can keep some h
 Acceptance criteria
 
 -Ability to control location data turn off/on
+
 -Ability to select preference on specific, general, or private location.
+
 -Location preference is shown.
 
 As a fishing conservation activist, I want to view conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
@@ -63,6 +71,7 @@ As a fishing conservation activist, I want to view conservation events, so I can
 Acceptance criteria
 
 -Ability to view conservation events.
+
 -Unable to edit/create/delete conservation events.
 
 As a MasterAngler (Administrator of the site), I want to be able to edit/create/delete community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
@@ -71,6 +80,7 @@ As a MasterAngler (Administrator of the site), I want to be able to edit/create/
 Acceptance criteria
 
 -Ability to edit/create/delete conservation events.
+
 -Ability to set the date for the event.
 
 As a MasterAngler (Administrator of the site), I want to moderate posts, so I can prevent a negative atmosphere and misleading data.
@@ -79,6 +89,7 @@ As a MasterAngler (Administrator of the site), I want to moderate posts, so I ca
 Acceptance criteria
 
 -Ability to edit / delete posts.
+
 -Ability to delete / ban account.
 
 
@@ -90,6 +101,7 @@ As a malicious unregistered angler I want to make posts and comments without mak
 Mitigation Criteria:
 
 -Authentication that user is registered to make a post.
+
 -Accounts not registered are rejected.
 
 As a malicious unregistered angler I want to have the abilities of a registered account.
@@ -133,6 +145,7 @@ As a malicious MasterAngler (Administrator of the site) I want to be able to edi
 Mitigation Criteria:
 
 -Alternative accounts to MasterAngler do not have permissions outside of view only.
+
 -Authentication mechanisms prevent access.
 
 As a malicious MasterAngler (Administrator of the site I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts. 
@@ -140,6 +153,7 @@ As a malicious MasterAngler (Administrator of the site I want to be able to edit
 Mitigation Criteria:
 
 -Administrators can remove negative atmosphere / false info.
+
 -Administrators approve or deny posts in community posts.
 
 
