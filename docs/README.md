@@ -94,7 +94,7 @@ Acceptance criteria
 
 
 
-Mis-user stories
+# Mis-user stories
 
 As a malicious unregistered angler I want to make posts and comments without making an account.
 
