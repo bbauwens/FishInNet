@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="4qcV1ZRAq6IG875uBiv4">
+    <mxGraphModel dx="2054" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-2" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Unregistered Angler" vertex="1">
+          <mxGeometry height="100" width="100" x="90" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-3" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Registered Angler" vertex="1">
+          <mxGeometry height="100" width="100" x="240" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-4" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Fishing Conservation Activist" vertex="1">
+          <mxGeometry height="100" width="100" x="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-5" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="MasterAngler (Administrator)" vertex="1">
+          <mxGeometry height="100" width="100" x="530" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="FishInNet [FIN] Application" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
