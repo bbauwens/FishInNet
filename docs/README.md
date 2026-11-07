@@ -132,31 +132,52 @@ Acceptance criteria
 
 # Mis-user stories
 
-As a malicious unregistered angler I want to make posts and comments without making an account.
+As a malicious unregistered angler I want to make posts and comments without making an account so I can submit misleading and inappropriate posts.
 
 Mitigation Criteria:
 
--Authentication that user is registered to make a post.
+-Authentication is done to prove that user is registered to make a post.
 
--Accounts not registered are rejected.
+-Accounts not registered are only in a view only mode.
 
-As a malicious unregistered angler I want to have the abilities of a registered account.
+-Authenticated and Authorized users are only members of the group able to perform these actions.
+
+
+
+As a malicious unregistered angler I want to have the abilities of a registered account so I can remain anonymous and post freely.
 
 Mitigation Criteria:
 
 -Authentication prevents ability to see account abilities.
 
-As a malicious registered angler I want to log into / log out of someone else's account.
+-Authenticated and authorized registered anglers are only members of the group able to post and have abilities of a registered account.
+
+-Posts are moderated and would be removed if they violated community guidelines.
+
+
+
+As a malicious registered angler I want to gain unauthorized access to another anglers account.
 
 Mitigation Criteria:
 
--Authentication rejects ability to log in.
+-Authentication verifies user's credentials before successful log in.
 
-As a malicious registered angler I want to edit, change, or delete someone's account.
+-Anglers can log out which terminates their sessions.
+
+-Login attempts are protected from brute force attempts and only allow for 3 attempts before the account is locked.
+
+
+
+As a malicious registered angler I want to gain unauthorized access to edit, change, or delete someone's account or take control of their account.
 
 Mitigation Criteria:
 
--Unauthorized account is rejected from others accounts.
+-Accounts must be authenticated before being able to access account privleges.
+
+-Accounts can only be edited by their own authenticated session and are unable to edit others accounts unless administrator.
+
+-Verification of an account's authorization to make changes to account are checked.
+
 
 As a malicious registered angler I want to edit, change, or delete someone's post.
 
