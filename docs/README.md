@@ -23,6 +23,7 @@ Acceptance criteria
 
 -Passwords must contain at least 8 characters, with one character being capitalized and one being a special character.
 
+-Unregistered angler must retype password to confirm it matches the previous to confirm account creation.
 
 
 As a registered angler, I want to log into my account, so I can create posts and contribute to the FIN community.
