@@ -9,7 +9,7 @@ Acceptance criteria:
 
 
 
-As an unregistered angler, I want to create an account to be a part of this community so I can participate in the FishInNet community experience.
+As an unregistered angler, I want to create an account to be a part of this community so I can participate in the FIN community experience.
 
 Acceptance criteria
 
@@ -25,7 +25,7 @@ Acceptance criteria
 
 
 
-As a registered angler, I want to log into my account, so I can create posts and contribute to the community.
+As a registered angler, I want to log into my account, so I can create posts and contribute to the FIN community.
 
 Acceptance criteria
 
@@ -37,7 +37,7 @@ Acceptance criteria
 
 
 
-As a registered angler, I want to create posts and contribute to the community, so I can provide my expertise to the community.
+As a registered angler, I want to create posts and contribute to the FIN community, so I can provide my expertise, trophies, experience to the community.
 
 
 Acceptance criteria
@@ -75,7 +75,7 @@ Acceptance criteria
 
 
 
-As a registered angler, I want to control my location data, so I can keep some hotspots private so they aren't overfished.
+As a registered angler, I want to control my FIN location data, so I can keep some hotspots private so they aren't overfished.
 
 
 Acceptance criteria
@@ -88,44 +88,44 @@ Acceptance criteria
 
 
 
-As a fishing conservation activist, I want to view conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
+As a fishing conservation activist, I want to view FIN conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
 
 
 Acceptance criteria
 
--Ability to view conservation events.
+-Ability to view FIN conservation events.
 
--Unable to edit/create/delete conservation events.
+-Unable to edit/create/delete FIN conservation events.
 
 
 
-As a MasterAngler (Administrator of the site), I want to be able to edit/create/delete community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
+As a MasterAngler (Administrator of the site), I want to be able to edit/create/delete FIN community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
 
 
 Acceptance criteria
 
--MasterAngler is an authenticated and authorized user of the administrator group.
+-MasterAngler is an authenticated and authorized user of the administrator FIN group.
 
 -Ability to edit/create/delete conservation events.
 
--Ability to set the date for the event.
+-Ability to set the date for the FIN event.
 
 
 
-As a MasterAngler (Administrator of the site), I want to moderate posts and manage user accounts, so I can prevent a negative atmosphere, misleading, or inappropriate data.
+As a MasterAngler (Administrator of the site), I want to moderate posts and manage user accounts, so I can prevent a negative FIN atmosphere, misleading, or inappropriate data.
 
 
 Acceptance criteria
 
--Ability to edit / delete all posts that violate guidelines.
+-Ability to edit / delete all posts that violate FIN guidelines.
 
--Ability to delete / ban all accounts that violate guidelines.
+-Ability to delete / ban all accounts that violate FIN guidelines.
 
 -Ability to suspend or restore all accounts.
 
--MasterAngler is authenticated and authorized user of the administrator group.
+-MasterAngler is authenticated and authorized user of the FIN administrator group.
 
--Administrator privileges are only available to authorized and authenticated users of that administrative group.
+-Administrator privileges are only available to authorized and authenticated users of that FIN administrative group.
 
 
 
@@ -136,23 +136,23 @@ As a malicious unregistered angler I want to make posts and comments without mak
 
 Mitigation Criteria:
 
--Authentication is done to prove that user is registered to make a post.
+-Authentication is verified with a registered account to prove that user is allowed to make a post or comment.
 
--Accounts not registered are only in a view only mode.
+-Unregistered accounts are restricted to view-only permissions.
 
--Authenticated and Authorized users are only members of the group able to perform these actions.
+-Only authenticated and authorized anglers are able to make posts and comments.
 
 
 
-As a malicious unregistered angler I want to have the abilities of a registered account so I can remain anonymous and post freely.
+As a malicious unregistered angler I want to gain the abilities of a registered account so I can be anonymous and post freely to avoid accountability.
 
 Mitigation Criteria:
 
--Authentication prevents ability to see account abilities.
+-Authentication prevents ability to see registered account capabilities.
 
--Authenticated and authorized registered anglers are only members of the group able to post and have abilities of a registered account.
+-Authorization restrictions prevent unauthenticated anglers from being able to use authenticated angler abilities.
 
--Posts are moderated and would be removed if they violated community guidelines.
+-Posts can be reported and moderated if they violate the FIN community guidelines.
 
 
 
@@ -168,7 +168,7 @@ Mitigation Criteria:
 
 
 
-As a malicious registered angler I want to gain unauthorized access to edit, change, or delete someone's account or take control of their account.
+As a malicious registered angler I want to gain unauthorized access to edit, change, or delete an angler's account or take full control.
 
 Mitigation Criteria:
 
