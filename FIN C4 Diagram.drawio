@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="4qcV1ZRAq6IG875uBiv4">
-    <mxGraphModel dx="5129" dy="1565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3827" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,6 +350,26 @@
             </Array>
             <mxPoint x="2588.0919540229897" y="1350" as="sourcePoint" />
             <mxPoint x="1890" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-68" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-32" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-49" value="Sends weather request">
+          <mxGeometry relative="1" x="0.0153" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1366" y="1385" />
+            </Array>
+            <mxPoint x="1550" y="1390" as="sourcePoint" />
+            <mxPoint x="1470" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-71" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="Sends weather response">
+          <mxGeometry relative="1" x="0.0153" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1370" y="1423" />
+            </Array>
+            <mxPoint x="1110" y="1420" as="sourcePoint" />
+            <mxPoint x="1630" y="1423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
