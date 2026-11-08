@@ -14,29 +14,41 @@
           <mxGeometry height="190" width="160" x="620" y="570" as="geometry" />
         </mxCell>
         <mxCell id="FSJaQT2S_NMsX3PkHpa8-5" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;MasterAngler (Administrator)&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Administrator that moderates posts, users accounts, and manages conservation events.&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="190" width="160" x="340" y="130" as="geometry" />
+          <mxGeometry height="190" width="160" x="350" y="30" as="geometry" />
         </mxCell>
         <mxCell id="FSJaQT2S_NMsX3PkHpa8-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font&gt;&lt;b style=&quot;&quot;&gt;FishInNet [FIN] Application&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[Web Application]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;A fishing community platform to share comments, likes, and photos of catches, fishing details, fishing community engagement, and conservation efforts&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="200" x="330" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="DIF99EqUNyeUylFvNwQw-2" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.431;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.02;entryY=0.375;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="View public posts">
+        <mxCell id="DIF99EqUNyeUylFvNwQw-2" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.431;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.02;entryY=0.375;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Views public posts">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="90" y="450" as="sourcePoint" />
             <mxPoint x="320" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIF99EqUNyeUylFvNwQw-3" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.392;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="View public conservation event posts">
+        <mxCell id="DIF99EqUNyeUylFvNwQw-3" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.392;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Views public conservation event posts">
           <mxGeometry relative="1" width="160" x="-0.1843" y="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="660" y="510" as="sourcePoint" />
             <mxPoint x="530" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIF99EqUNyeUylFvNwQw-4" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="">
+        <mxCell id="DIF99EqUNyeUylFvNwQw-4" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Creates posts, shares catch details, comments, likes, and shares location details">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="270" y="545" as="sourcePoint" />
             <mxPoint x="430" y="545" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-1" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Performs administrative actions">
+          <mxGeometry relative="1" x="0.0093" as="geometry">
+            <Array as="points">
+              <mxPoint x="438.95522388059726" y="220" />
+            </Array>
+            <mxPoint x="430" y="270" as="sourcePoint" />
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Amazon Web Services Simple Email Service.&lt;div&gt;[Software System]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="590" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
