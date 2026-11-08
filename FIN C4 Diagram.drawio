@@ -32,13 +32,13 @@
             <mxPoint x="530" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DIF99EqUNyeUylFvNwQw-4" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Creates posts, shares catch details, comments, likes, and shares location details">
+        <mxCell id="DIF99EqUNyeUylFvNwQw-4" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Engages as a registered angler">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="270" y="545" as="sourcePoint" />
             <mxPoint x="430" y="545" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4tVgI-8TqTVYiTWFT8C_-1" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Performs administrative actions">
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-1" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Performs administrative roles">
           <mxGeometry relative="1" x="0.0093" as="geometry">
             <Array as="points">
               <mxPoint x="438.95522388059726" y="220" />
@@ -47,8 +47,11 @@
             <mxPoint x="350" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4tVgI-8TqTVYiTWFT8C_-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Amazon Web Services Simple Email Service.&lt;div&gt;[Software System]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="590" y="250" as="geometry" />
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Amazon Web Services Simple Email Service.&lt;/b&gt;&lt;div&gt;[SES]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="690" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;Open-Meteo&lt;/b&gt;&lt;div&gt;[Weather API]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="70" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
