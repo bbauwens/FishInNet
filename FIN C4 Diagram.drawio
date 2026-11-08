@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="4qcV1ZRAq6IG875uBiv4">
-    <mxGraphModel dx="3325" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4391" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="FSJaQT2S_NMsX3PkHpa8-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font&gt;&lt;b style=&quot;&quot;&gt;FishInNet [FIN] Application&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;A fishing community platform to share comments, likes, and photos of catches, fishing details, fishing community engagement, and conservation efforts&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="200" x="330" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="DIF99EqUNyeUylFvNwQw-2" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.431;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.02;entryY=0.375;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Views public posts">
+        <mxCell id="DIF99EqUNyeUylFvNwQw-2" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.431;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.005;entryY=0.667;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Views public posts">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="90" y="450" as="sourcePoint" />
             <mxPoint x="320" y="460" as="targetPoint" />
@@ -50,7 +50,7 @@
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Amazon Web Services Simple Email Service.&lt;/b&gt;&lt;div&gt;[SES]&lt;/div&gt;&lt;div&gt;Security notification emails and password reset&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="200" x="1320" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="4tVgI-8TqTVYiTWFT8C_-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;Open-Meteo&lt;/b&gt;&lt;div&gt;[Weather API]&lt;/div&gt;&lt;div&gt;Weather information for fishing area and logged catch day&lt;/div&gt;" vertex="1">
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;Open-Meteo&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;Weather information for fishing area and logged catch day&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="200" x="-50" y="120" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-4" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="4tVgI-8TqTVYiTWFT8C_-2" value="Sends e-mail requests to registered anglers">
@@ -134,22 +134,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-18" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0000FF;gradientColor=none;fontStyle=0;strokeWidth=2;fontColor=#0000FF;" value="" vertex="1">
-          <mxGeometry height="660" width="1160" x="1160" y="980" as="geometry" />
+          <mxGeometry height="820" width="1160" x="1160" y="980" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-19" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="180" width="250" x="1220" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;FishInNet - FIN&lt;/font&gt;&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="230" x="1170" y="1580" as="geometry" />
+          <mxGeometry height="50" width="230" x="1180" y="1720" as="geometry" />
         </mxCell>
-        <mxCell id="4tVgI-8TqTVYiTWFT8C_-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;Static Content&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;[Container: Directory]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;HTML, CSS, Javascript / Django&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="45" width="160" x="1250" y="1080" as="geometry" />
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Static Content&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[Container: Directory]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;HTML, CSS, JavaScript etc&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="185" x="1250" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-26" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/generic/1/Webpage-141.svg;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="180" width="244.01" x="1630" y="1040" as="geometry" />
         </mxCell>
-        <mxCell id="4tVgI-8TqTVYiTWFT8C_-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;User Interface&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Multi-page app that provides FishInNet functionality to it&#39;s audience&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;User Interface&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Multi-page app that provides FishInNet functionality to it&#39;s audience&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="95" width="185" x="1665" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-32" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px; color: rgb(0, 0, 255);&quot;&gt;Backend&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 255);&quot;&gt;Container: Python, Django, Django REST&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px; color: rgb(0, 0, 255);&quot;&gt;Functionality through web app and REST API&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="244.01" x="1630" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-33" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/CSS_Vol_3-2666/terminal-841.svg;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="1650" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-36" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;strokeColor=#0000FF;" value="" vertex="1">
+          <mxGeometry height="150" width="210" x="1874.01" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;strokeColor=#0000FF;" value="" vertex="1">
+          <mxGeometry height="150" width="210" x="1540" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;br&gt;&lt;b&gt;Amazon Web Services S3&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;Cloud Storage system for FIN photos&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="-240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-39" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-38" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Sends hosted FIN photo">
+          <mxGeometry relative="1" width="160" x="0.002" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-30" y="456" as="sourcePoint" />
+            <mxPoint x="141" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-41" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-38" value="Uploads FIN photo">
+          <mxGeometry relative="1" x="-0.1354" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="145" y="460" />
+            </Array>
+            <mxPoint x="70" y="400" as="sourcePoint" />
+            <mxPoint x="-150" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
