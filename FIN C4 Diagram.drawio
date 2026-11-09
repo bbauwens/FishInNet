@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="4qcV1ZRAq6IG875uBiv4">
-    <mxGraphModel dx="5985" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2946" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -431,13 +431,13 @@
           <mxGeometry height="110" width="199.51" x="3890" y="2560" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-97" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Access Control&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Component for enforcing registered and unregistered anglers.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="199.51" x="3940" y="2360" as="geometry" />
+          <mxGeometry height="110" width="199.51" x="3970" y="2380" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-98" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN MasterAngler Management&lt;/b&gt;" vertex="1">
           <mxGeometry height="110" width="199.51" x="2980" y="2550" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-99" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN User Interactions&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Component responsible for likes and comments.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="199.51" x="3625" y="2450" as="geometry" />
+          <mxGeometry height="110" width="199.51" x="3600" y="2410" as="geometry" />
         </mxCell>
         <mxCell id="4tVgI-8TqTVYiTWFT8C_-101" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Weather API&lt;/b&gt;" vertex="1">
           <mxGeometry height="110" width="199.51" x="3940" y="2710" as="geometry" />
@@ -505,7 +505,7 @@
             <mxPoint x="3629" y="2910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4tVgI-8TqTVYiTWFT8C_-115" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-91" value="request to view">
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-115" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-91" value="Request to view">
           <mxGeometry relative="1" x="-0.1562" y="12" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -674,13 +674,20 @@
             <mxPoint x="3560" y="2510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4tVgI-8TqTVYiTWFT8C_-136" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-99" value="return">
-          <mxGeometry relative="1" x="0.0688" as="geometry">
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-136" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-99" value="Interaction request">
+          <mxGeometry relative="1" x="-0.4944" y="-3" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="3687.3775000000005" y="2450.0000000000005" />
             </Array>
             <mxPoint x="3650" y="2420" as="sourcePoint" />
             <mxPoint x="3730" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-137" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="Authentication token to interacter">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3950" y="2450" as="sourcePoint" />
+            <mxPoint x="3800" y="2450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
