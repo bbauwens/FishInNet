@@ -49,6 +49,7 @@ Once you have completed the above installation the app should now be ready to be
 (use credentials used above when creating super user)
 
 2. Once logged in you should now be able to:
+
 *View Posts
 
 *Register to FIN
