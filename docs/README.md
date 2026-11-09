@@ -269,10 +269,12 @@ Mitigation Criteria:
 
 # Diagrams
 
+## C4 Diagram
+
 ![FishInNet C4 Architecture Diagram](./FIN%20C4%20Diagram.drawio.png)
 
 
-# Mockup
+## Mockup Diagrams
 
 ![Mockup](Website%20wireframe.png)
 
