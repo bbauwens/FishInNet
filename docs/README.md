@@ -9,7 +9,7 @@ Acceptance criteria:
 
 
 
-###As an unregistered angler, I want to create an account to be a part of this community so I can participate in the FIN community experience.
+### As an unregistered angler, I want to create an account to be a part of this community so I can participate in the FIN community experience.
 
 Acceptance criteria
 
@@ -26,7 +26,7 @@ Acceptance criteria
 -Unregistered angler must retype password to confirm it matches the previous to confirm account creation.
 
 
-###As a registered angler, I want to log into my account, so I can create posts and contribute to the FIN community.
+### As a registered angler, I want to log into my account, so I can create posts and contribute to the FIN community.
 
 Acceptance criteria
 
@@ -38,7 +38,7 @@ Acceptance criteria
 
 
 
-###As a registered angler, I want to create posts and contribute to the FIN community, so I can provide my expertise, trophies, experience to the community.
+### As a registered angler, I want to create posts and contribute to the FIN community, so I can provide my expertise, trophies, experience to the community.
 
 
 Acceptance criteria
@@ -52,7 +52,7 @@ Acceptance criteria
 
 
 
-###As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so other anglers can compare for best fishing experience.
+### As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so other anglers can compare for best fishing experience.
 
 
 Acceptance criteria
@@ -63,7 +63,7 @@ Acceptance criteria
 
 
 
-###As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight on fishing experience and insights.
+### As a registered angler, I want to comment and like other anglers posts, so I can connect with the community and provide insight on fishing experience and insights.
 
 
 Acceptance criteria
@@ -80,7 +80,7 @@ Acceptance criteria
 
 
 
-###As a registered angler, I want to control my FIN location data, so I can keep some hotspots private so they aren't overfished.
+### As a registered angler, I want to control my FIN location data, so I can keep some hotspots private so they aren't overfished.
 
 
 Acceptance criteria
@@ -97,7 +97,7 @@ Acceptance criteria
 
 
 
-###As a fishing conservation activist, I want to view FIN conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
+### As a fishing conservation activist, I want to view FIN conservation events, so I can help participate in impactful help so other generations can enjoy this hobby.
 
 
 Acceptance criteria
@@ -108,7 +108,7 @@ Acceptance criteria
 
 
 
-###As a MasterAngler (Administrator of the site), I want to be able to edit/create/delete FIN community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
+### As a MasterAngler (Administrator of the site), I want to be able to edit/create/delete FIN community conservation events, so I can encourage impactful conservation efforts for other generations to enjoy the outdoors.
 
 
 Acceptance criteria
@@ -121,7 +121,7 @@ Acceptance criteria
 
 
 
-###As a MasterAngler (Administrator of the site), I want to moderate posts and manage user accounts, so I can prevent a negative FIN atmosphere, misleading, or inappropriate data.
+### As a MasterAngler (Administrator of the site), I want to moderate posts and manage user accounts, so I can prevent a negative FIN atmosphere, misleading, or inappropriate data.
 
 
 Acceptance criteria
@@ -141,7 +141,7 @@ Acceptance criteria
 
 # Mis-user stories
 
-###As a malicious unregistered angler I want to make posts and comments without making an account so I can submit misleading and inappropriate posts.
+### As a malicious unregistered angler I want to make posts and comments without making an account so I can submit misleading and inappropriate posts.
 
 Mitigation Criteria:
 
@@ -153,7 +153,7 @@ Mitigation Criteria:
 
 
 
-###As a malicious unregistered angler I want to gain the abilities of a registered account so I can be anonymous and post freely to avoid accountability.
+### As a malicious unregistered angler I want to gain the abilities of a registered account so I can be anonymous and post freely to avoid accountability.
 
 Mitigation Criteria:
 
@@ -165,7 +165,7 @@ Mitigation Criteria:
 
 
 
-###As a malicious registered angler I want to gain unauthorized access to another anglers account to impersonate and access their private account information.
+### As a malicious registered angler I want to gain unauthorized access to another anglers account to impersonate and access their private account information.
 
 Mitigation Criteria:
 
@@ -183,7 +183,7 @@ Mitigation Criteria:
 
 
 
-###As a malicious registered angler I want to gain unauthorized access to edit, change, or delete an angler's account or take full control.
+### As a malicious registered angler I want to gain unauthorized access to edit, change, or delete an angler's account or take full control.
 
 Mitigation Criteria:
 
@@ -194,7 +194,7 @@ Mitigation Criteria:
 -Verification of an account's authorization to make changes to account are checked.
 
 
-###As a malicious registered angler I want to edit, change, or delete someone's post so I can influence the information share with the FIN community.
+### As a malicious registered angler I want to edit, change, or delete someone's post so I can influence the information share with the FIN community.
 
 Mitigation Criteria:
 
@@ -206,7 +206,7 @@ Mitigation Criteria:
 
 
 
-###As a malicious registered angler I want to turn on location data and see specific location of private fishing spots so I can find and exploit the fishing location.
+### As a malicious registered angler I want to turn on location data and see specific location of private fishing spots so I can find and exploit the fishing location.
 
 Mitigation Criteria:
 
@@ -218,7 +218,7 @@ Mitigation Criteria:
 
 
 
-###As a malicious registered angler, I want to upload a malicious or wrong formatted image to exploit FIN application or it's community.
+### As a malicious registered angler, I want to upload a malicious or wrong formatted image to exploit FIN application or it's community.
 
 Mitigation Criteria:
 
@@ -229,7 +229,7 @@ Mitigation Criteria:
 -Uploaded images will be verified and validated before being put in database.
 
 
-###As a malicious fishing conservation activist I want to edit, create, or delete conservation event post.
+### As a malicious fishing conservation activist I want to edit, create, or delete conservation event post.
 
 Mitigation Criteria:
 
@@ -241,7 +241,7 @@ Mitigation Criteria:
 
 
 
-###As a malicious registered angler, I want to gain unauthorized access to MasterAngler account to be able to edit/create/delete conservation events to prevent FIN community conservation efforts.
+### As a malicious registered angler, I want to gain unauthorized access to MasterAngler account to be able to edit/create/delete conservation events to prevent FIN community conservation efforts.
 
 Mitigation Criteria:
 
@@ -253,7 +253,7 @@ Mitigation Criteria:
 
 
 
-###As a malicious MasterAngler (Administrator of the site I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts. 
+### As a malicious MasterAngler (Administrator of the site I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts. 
 
 Mitigation Criteria:
 
