@@ -14,32 +14,32 @@ Software Needed/Used for install
 
 STARTING LINE BELOW:
 
-BASH CLI Commands
+1. BASH CLI Commands (launch cmd prompt)
 Setting Up the Django App
 
 (Creates a clone of the repository)
 
-git clone https://github.com/bbauwens/FishInNet.git
+2. In command prompt run "git clone https://github.com/bbauwens/FishInNet.git"
 
 (Changes to the directory)
 
-cd FishInNet
+3. In command prompt run "cd FishInNet"
 
 (Builds Docker image)
 
-docker compose build
+4. In command prompt run "docker compose build"
 
 (Starts containers in background)
 
-docker compose up -d
+5. In command prompt run "docker compose up -d"
 
 (Runs migrations)
 
-docker compose exec app python manage.py migrate
+6. In command prompt run "docker compose exec app python manage.py migrate"
 
 (Creates super user admin for use in the admin interface for container)
 
-docker compose exec app python manage.py createsuperuser
+7.In command prompt run "docker compose exec app python manage.py createsuperuser"
 
 
 ## Getting Started:
