@@ -274,7 +274,7 @@ Mitigation Criteria:
 
 #Mockup
 
-![FishInNet C4 Architecture Diagram](.Website%20wireframe.png)
+![Mockup](Website%20wireframe.png)
 
 
 
