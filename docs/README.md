@@ -52,7 +52,7 @@ Acceptance criteria
 
 
 
-### As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so other anglers can compare for best fishing experience.
+### As a registered angler, I want to share information about the lake, fishing technique, bait, and weather condition, so I can show other anglers the best fishing experience.
 
 
 Acceptance criteria
@@ -165,7 +165,7 @@ Mitigation Criteria:
 
 
 
-### As a malicious registered angler I want to gain unauthorized access to another anglers account to impersonate and access their private account information.
+### As a malicious registered angler I want to gain unauthorized access to another anglers account so I can impersonate and access their private account information.
 
 Mitigation Criteria:
 
@@ -183,7 +183,7 @@ Mitigation Criteria:
 
 
 
-### As a malicious registered angler I want to gain unauthorized access to edit, change, or delete an angler's account or take full control.
+### As a malicious registered angler I want to gain unauthorized access so I can edit, change, or delete an angler's account or take full control.
 
 Mitigation Criteria:
 
@@ -218,7 +218,7 @@ Mitigation Criteria:
 
 
 
-### As a malicious registered angler, I want to upload a malicious or wrong formatted image to exploit FIN application or it's community.
+### As a malicious registered angler, I want to upload a malicious or wrong formatted image so I can exploit FIN application or it's community.
 
 Mitigation Criteria:
 
@@ -229,7 +229,7 @@ Mitigation Criteria:
 -Uploaded images will be verified and validated before being put in database.
 
 
-### As a malicious fishing conservation activist I want to edit, create, or delete conservation event post.
+### As a malicious fishing conservation activist I want to edit, create, or delete conservation event post so I can exploit the conservation community.
 
 Mitigation Criteria:
 
@@ -241,7 +241,7 @@ Mitigation Criteria:
 
 
 
-### As a malicious registered angler, I want to gain unauthorized access to MasterAngler account to be able to edit/create/delete conservation events to prevent FIN community conservation efforts.
+### As a malicious registered angler, I want to gain unauthorized access to MasterAngler account so I can be able to edit/create/delete conservation events to prevent FIN community conservation efforts.
 
 Mitigation Criteria:
 
@@ -253,7 +253,7 @@ Mitigation Criteria:
 
 
 
-### As a malicious MasterAngler (Administrator of the site I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts. 
+### As a malicious MasterAngler (Administrator of the site) I want to be able to edit/delete posts, create negative atmosphere and delete or ban accounts so I can can disrupt the community. 
 
 Mitigation Criteria:
 
