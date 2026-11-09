@@ -269,6 +269,7 @@ Mitigation Criteria:
 
 # Diagrams
 
-![FIN C4 Diagram](./FIN%20C4%20Diagram.drawio.png)
+![FishInNet C4 Architecture Diagram](./FIN%20C4%20Diagram.drawio.png)
+
 
 # Prototype
