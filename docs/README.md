@@ -1,7 +1,7 @@
  # User stories
-As an unregistered angler, I want to view the feed the community is contributing to, so I can stay up to date with catches and conservation efforts.
+## As an unregistered angler, I want to view the feed the community is contributing to, so I can stay up to date with catches and conservation efforts.
 
-Acceptance criteria:
+### Acceptance criteria:
 
 -Ability to view the public posts of registered anglers and conservation events.
 
