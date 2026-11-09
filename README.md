@@ -1,6 +1,5 @@
 # FishInNet
-Fish In Net or (FIN) for short, is a web app where anglers can log their catch so it doesn't turn out to be just another fishing story! The web app will allow the angler to share their location or general area (privacy is still imporant, and keeping those secret spots a secret!!) with pictures. FIN will be a great way to allow the community to come together to not only share their catch but much more! In fact, FIN allows anglers to share the lakes, baits, weather on the day that they caught their trophy. The fish community wouldn't be around without conservation efforts, and community groups to come together and bring awareness and interest to new and young anglers! In this case for proof of concept we will be using local fishing lakes to the city of Omaha to better depict our use, and then show our vision for further expansion of the app as listed by suggestions by the community.
-//add more
+Fish In Net or (FIN) for short, is a web app where anglers can log their catch so it doesn't turn out to be just another fishing story! The web app will allow the angler to share their location or general area (privacy is still important, and keeping those secret spots a secret!!) with pictures. FIN will be a great way to allow the community to come together to not only share their catch but much more! In fact, FIN allows anglers to share the lakes, baits, and weather on the day of their trophy or first catch! The fishing community wouldn't be around without conservation efforts, and community groups to come together and bring awareness and interest to new and young anglers for years to come, that is why FIN also doubles as a conservation app in addition to sharing for opportunities to make fishing last! In this case, for proof of concept we will be using local fishing lakes to the city of Omaha to better depict our use, and then show our vision for further expansion of the app depicted by further community interests! FishInNet wants to welcome new and old anglers to get them active with a great new/existing hobby and extend efforts to continue the conservation of the hobby!
 
 
 ## Installation:
@@ -10,6 +9,10 @@ Software Needed/Used for install
 
 -Docker Desktop: Installed and running on your local machine.
 
+-Docker Compose: Installed on your machine
+
+
+STARTING LINE BELOW:
 
 BASH CLI Commands
 Setting Up the Django App
@@ -39,10 +42,24 @@ docker compose exec app python manage.py migrate
 docker compose exec app python manage.py createsuperuser
 
 
-
-
-
 ## Getting Started:
+Once you have completed the above installation the app should now be ready to be accessed.
+
+1. Open browser and go to http://localhost:8000/admin/
+(use credentials used above when creating super user)
+
+2. Once logged in you should now be able to:
+*View Posts
+
+*Register to FIN
+
+*Sign in if you registered a FIN account
+
+*Share pictures and interact with the FIN community by liking or commenting
+
+*View fishing details on the post such as what kind of bait, lake the fish was caught at, and the weather conditions
+
+*Discover conservation events listed and calendar.
 
 
 # License:
