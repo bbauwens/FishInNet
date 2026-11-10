@@ -1,0 +1,706 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="4qcV1ZRAq6IG875uBiv4">
+    <mxGraphModel dx="3827" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-2" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Unregistered Angler&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;An angler who is not registered to the site who is able to view public posts.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="90" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-3" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Registered Angler&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;An angler who is registered to the site who is able to create posts, share catch details, comment, like, and share location details.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="345" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-4" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Fishing Conservation Activist&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;An activist who is not registered to the site but is focused on the conservation efforts exclusively for their fishing community that is able to view conservation events and participation details.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="680" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-5" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;MasterAngler (Administrator)&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Administrator that moderates posts, users accounts, and manages conservation events.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSJaQT2S_NMsX3PkHpa8-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font&gt;&lt;b style=&quot;&quot;&gt;FishInNet [FIN] Application&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;A fishing community platform to share comments, likes, and photos of catches, fishing details, fishing community engagement, and conservation efforts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="330" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="DIF99EqUNyeUylFvNwQw-2" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.431;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.005;entryY=0.667;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Views public posts">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="90" y="450" as="sourcePoint" />
+            <mxPoint x="320" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIF99EqUNyeUylFvNwQw-3" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-4" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.099;exitY=0.346;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.392;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Views public conservation event posts">
+          <mxGeometry relative="1" width="160" x="-0.1843" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660" y="510" as="sourcePoint" />
+            <mxPoint x="530" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIF99EqUNyeUylFvNwQw-4" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Engages as a registered angler">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="270" y="545" as="sourcePoint" />
+            <mxPoint x="430" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-1" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Performs administrative roles">
+          <mxGeometry relative="1" x="0.0093" as="geometry">
+            <Array as="points">
+              <mxPoint x="438.95522388059726" y="220" />
+            </Array>
+            <mxPoint x="430" y="270" as="sourcePoint" />
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Amazon Web Services Simple Email Service.&lt;/b&gt;&lt;div&gt;[SES]&lt;/div&gt;&lt;div&gt;Security notification emails and password reset&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="1320" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;Open-Meteo&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;Weather information for fishing area and logged catch day&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="-50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-4" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="4tVgI-8TqTVYiTWFT8C_-2" value="Sends e-mail requests to registered anglers">
+          <mxGeometry relative="1" x="-0.0292" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="612.3639610306786" y="405.2720779386425" />
+            </Array>
+            <mxPoint x="660" y="370" as="sourcePoint" />
+            <mxPoint x="580" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-6" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Sends weather response">
+          <mxGeometry relative="1" x="-0.0307" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="202.63603896932136" y="405.2720779386425" />
+            </Array>
+            <mxPoint x="190" y="330" as="sourcePoint" />
+            <mxPoint x="110" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-7" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-3" value="Sends weather request">
+          <mxGeometry relative="1" x="0.4086" as="geometry">
+            <Array as="points">
+              <mxPoint x="322.3076923076924" y="400.0000000000002" />
+            </Array>
+            <mxPoint x="350" y="330" as="sourcePoint" />
+            <mxPoint x="270" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-10" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="FSJaQT2S_NMsX3PkHpa8-5" value="Sends e-mail response">
+          <mxGeometry relative="1" x="0.0859" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1080" y="340" />
+              <mxPoint x="960" y="310" />
+            </Array>
+            <mxPoint x="1150" y="260" as="sourcePoint" />
+            <mxPoint x="1070" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-13" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=-34.8;" target="4tVgI-8TqTVYiTWFT8C_-2" value="Sends email request">
+          <mxGeometry relative="1" x="0.3057" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="965" y="370" />
+            </Array>
+            <mxPoint x="1510" y="475.2" as="sourcePoint" />
+            <mxPoint x="890" y="255.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-14" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0.75;exitY=1;exitDx=0;exitDy=3310;" value="Sends email response">
+          <mxGeometry relative="1" x="0.35" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="750" y="810" />
+            </Array>
+            <mxPoint x="910" y="380" as="sourcePoint" />
+            <mxPoint x="510" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-15" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-2" value="Sends e-mail request">
+          <mxGeometry relative="1" x="0.0899" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="772.1066370130648" y="866.0082229483851" />
+            </Array>
+            <mxPoint x="1660" y="990" as="sourcePoint" />
+            <mxPoint x="1040" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-17" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-6" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0000FF;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;Zoom In&lt;/b&gt;&lt;/font&gt;">
+          <mxGeometry relative="1" width="60" x="-0.2904" y="-1" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="710" y="649.9999999999998" />
+            </Array>
+            <mxPoint x="680" y="650" as="sourcePoint" />
+            <mxPoint x="1160" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-18" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0000FF;gradientColor=none;fontStyle=0;strokeWidth=2;fontColor=#0000FF;" value="" vertex="1">
+          <mxGeometry height="820" width="1160" x="1160" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-19" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="180" width="250" x="1220" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;FishInNet - FIN&lt;/font&gt;&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="230" x="1180" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Static Content&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;[Container: Directory]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;HTML, CSS, JavaScript etc&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="185" x="1250" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-26" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/generic/1/Webpage-141.svg;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="180" width="244.01" x="1630" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;User Interface&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Multi-page app that provides FishInNet functionality to it&#39;s audience&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="185" x="1665" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-32" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px; color: rgb(0, 0, 255);&quot;&gt;Backend&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 255);&quot;&gt;Container: Python, Django, Django REST&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px; color: rgb(0, 0, 255);&quot;&gt;Functionality through web app and REST API&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="244.01" x="1630" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-33" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/CSS_Vol_3-2666/terminal-841.svg;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="1650" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-36" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;strokeColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px; color: rgb(0, 0, 255);&quot;&gt;FIN Data Database&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 255);&quot;&gt;Container: PostgresSQL&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;FIN account and profile data, security data, FIN interaction data, weather, conservation events&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="1874.01" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;strokeColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px; color: rgb(0, 0, 255);&quot;&gt;FIN Photo Database&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 255);&quot;&gt;Container: Amazon Web Services S3&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;FIN photo storage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="1540" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;br&gt;&lt;b&gt;Amazon Web Services S3&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;Cloud Storage system for FIN photos&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="-240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-39" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-38" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="FSJaQT2S_NMsX3PkHpa8-6" value="Sends hosted FIN photo">
+          <mxGeometry relative="1" width="160" x="0.002" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-30" y="456" as="sourcePoint" />
+            <mxPoint x="141" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-41" edge="1" parent="1" source="FSJaQT2S_NMsX3PkHpa8-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-38" value="Uploads FIN photo">
+          <mxGeometry relative="1" x="-0.1354" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="145" y="460" />
+            </Array>
+            <mxPoint x="70" y="400" as="sourcePoint" />
+            <mxPoint x="-150" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-43" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-19" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.986;exitY=0.555;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-26" value="Delivers">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1450" y="1270" as="sourcePoint" />
+            <mxPoint x="1610" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-45" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-26" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-32" value="Makes API requests to">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1573.0012500000003" y="1220" />
+            </Array>
+            <mxPoint x="1580" y="1310" as="sourcePoint" />
+            <mxPoint x="1500" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-47" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-32" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-37" value="Reads from and writes to">
+          <mxGeometry relative="1" x="0.3288" as="geometry">
+            <Array as="points">
+              <mxPoint x="1668.5172580645158" y="1470.0000000000005" />
+            </Array>
+            <mxPoint x="1710" y="1540" as="sourcePoint" />
+            <mxPoint x="1630" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-48" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-32" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="4tVgI-8TqTVYiTWFT8C_-36" value="Reads from and writes to">
+          <mxGeometry relative="1" x="0.3288" as="geometry">
+            <Array as="points">
+              <mxPoint x="1751.503749999999" y="1470.0000000000005" />
+            </Array>
+            <mxPoint x="1755" y="1540" as="sourcePoint" />
+            <mxPoint x="1690" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-49" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Open-Meteo&lt;/font&gt;&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;Weather information for fishing area and logged catch day&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="260" x="850" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-50" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Amazon Web Services Simple Email Service.&lt;/b&gt;&lt;div&gt;[SES]&lt;/div&gt;&lt;div&gt;Security notification emails and password reset&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="230" x="2370" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-51" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-50" value="sends email requests to registered anglers">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1874.01" y="1400" as="sourcePoint" />
+            <mxPoint x="2034.01" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-52" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;MasterAngler (Administrator)&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Administrator that moderates posts, users accounts, and manages conservation events.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="1760" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-53" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Registered Angler&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;An angler who is registered to the site who is able to create posts, share catch details, comment, like, and share location details.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="2150" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-54" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Fishing Conservation Activist&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;An activist who is not registered to the site but is focused on the conservation efforts exclusively for their fishing community that is able to view conservation events and participation details.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="1195" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-55" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Unregistered Angler&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;[Person]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;An angler who is not registered to the site who is able to view public posts.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="1500" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-56" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-52" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-19" value="Loads the UI from">
+          <mxGeometry relative="1" x="-0.4475" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1672.005" y="1061.9191919191921" />
+            </Array>
+            <mxPoint x="1874.01" y="870" as="sourcePoint" />
+            <mxPoint x="1794.01" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-19" value="Loads the UI from">
+          <mxGeometry relative="1" x="-0.4442" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1990" y="930" />
+            </Array>
+            <mxPoint x="2154.01" y="870" as="sourcePoint" />
+            <mxPoint x="1750" y="1062" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-58" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-54" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-19" value="Loads the UI from">
+          <mxGeometry relative="1" x="-0.0164" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1295.4461764999996" y="1030" />
+            </Array>
+            <mxPoint x="1275.0100000000002" y="900" as="sourcePoint" />
+            <mxPoint x="871" y="1092" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-59" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-55" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-19" value="Loads the UI from">
+          <mxGeometry relative="1" x="-0.0164" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1457.6992045000006" y="1030" />
+            </Array>
+            <mxPoint x="1499.01" y="900" as="sourcePoint" />
+            <mxPoint x="1539.9999999999998" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-60" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-52" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-26" value="Performs administrative roles">
+          <mxGeometry relative="1" x="-0.0134" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1851.8494454323882" y="1040" />
+            </Array>
+            <mxPoint x="1770" y="830" as="sourcePoint" />
+            <mxPoint x="1810.9899999999998" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-61" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-53" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.965;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.211;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-26" value="Engages as a registered angler">
+          <mxGeometry relative="1" width="160" x="-0.0987" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2450" y="1150" as="sourcePoint" />
+            <mxPoint x="2454" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-62" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-54" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.888;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.471;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-26" value="Views public conservation event posts">
+          <mxGeometry relative="1" width="160" x="-0.791" y="-7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1486" y="949" as="sourcePoint" />
+            <mxPoint x="1320" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-63" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-55" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.424;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-26" value="Views public posts">
+          <mxGeometry relative="1" width="160" x="0.1306" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1560" y="950" as="sourcePoint" />
+            <mxPoint x="1731" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-64" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-50" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-53" value="Sends email response">
+          <mxGeometry relative="1" x="-0.3162" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2223.9080459770103" y="910" />
+            </Array>
+            <mxPoint x="2220" y="1720" as="sourcePoint" />
+            <mxPoint x="3131" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-65" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-53" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-50" value="Sends e-mail request">
+          <mxGeometry relative="1" x="0.0899" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2820.000000000001" y="837.7737226277375" />
+            </Array>
+            <mxPoint x="2500" y="1367" as="sourcePoint" />
+            <mxPoint x="3330" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-66" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-52" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-50" value="Sends e-mail request">
+          <mxGeometry relative="1" x="0.0899" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2207.1238245004897" y="736.2693268049766" />
+            </Array>
+            <mxPoint x="2240" y="761.2262773722625" as="sourcePoint" />
+            <mxPoint x="2495" y="1172.2262773722625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-67" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-50" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.25;entryDx=0;entryDy=420;exitX=0;exitY=0.25;exitDx=0;exitDy=-247.5;" value="Sends email response">
+          <mxGeometry relative="1" x="0.1205" y="9" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1960" y="1110" />
+            </Array>
+            <mxPoint x="2588.0919540229897" y="1350" as="sourcePoint" />
+            <mxPoint x="1890" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-68" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-32" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-49" value="Sends weather request">
+          <mxGeometry relative="1" x="0.0153" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1366" y="1385" />
+            </Array>
+            <mxPoint x="1550" y="1390" as="sourcePoint" />
+            <mxPoint x="1470" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-71" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="Sends weather response">
+          <mxGeometry relative="1" x="0.0153" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1370" y="1423" />
+            </Array>
+            <mxPoint x="1110" y="1420" as="sourcePoint" />
+            <mxPoint x="1630" y="1423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Level 1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Context&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="210" width="290" x="-140" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Level 2&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Containers&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="210" width="290" x="1180" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-74" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0000FF;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;Zoom In&lt;/b&gt;&lt;/font&gt;">
+          <mxGeometry relative="1" width="60" x="0.3363" y="-16" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2160" y="1630" />
+            </Array>
+            <mxPoint x="1870" y="1450" as="sourcePoint" />
+            <mxPoint x="2760" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-75" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0000FF;gradientColor=none;fontStyle=0;strokeWidth=2;fontColor=#0000FF;" value="" vertex="1">
+          <mxGeometry height="1110" width="1540" x="2690" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Level 3&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Components&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="210" width="290" x="2770" y="3270" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;FishInNet - FIN&lt;/font&gt;&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="230" x="2710" y="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1A1A1A;" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;System Context View: FishInNet - FIN&lt;/font&gt;&lt;/b&gt;&lt;div&gt;The system context diagram for fishing anglers and conservational activists&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="430" x="-460" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-79" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/generic/1/Webpage-141.svg;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="180" width="244.01" x="3290" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;FIN User Interface&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Multi-page app that provides FishInNet functionality to it&#39;s audience&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="185" x="3319.5" y="2105" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-81" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#0000FF;gradientColor=none;fontStyle=0;strokeWidth=2;fontColor=#0000FF;" value="" vertex="1">
+          <mxGeometry height="550" width="1490" x="2710" y="2330" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#0000FF;" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Backend&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[Container]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="230" x="2690" y="2820" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-90" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Account API&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Registration for angler account and profile editing.&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="2745" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-91" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Fishing Posts API&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Manages posts, catch details, location, bait data&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3050" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-92" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Conservation Events API&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Manages FIN conservation posts and events&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3230" y="2720" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-94" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;strokeColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px; color: rgb(0, 0, 255);&quot;&gt;FIN Photo Database&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 255);&quot;&gt;Container: Amazon Web Services S3&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;FIN photo storage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="3030" y="2920" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-95" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;strokeColor=#0000FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px; color: rgb(0, 0, 255);&quot;&gt;FIN Database&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 255);&quot;&gt;Container: PostgresSQL&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;FIN account and profile data, security data, FIN interaction data, weather, conservation events&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="3540" y="2910" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-96" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Password Management&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Component for providing notification of invalid login attempts and password reset&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3890" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-97" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Access Control&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Component for enforcing registered and unregistered anglers.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3970" y="2380" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-98" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN MasterAngler Management&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Angler + conservation posts and events management component&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="2980" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-99" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN User Interactions&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Component responsible for anglers likes and comments.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3600" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-101" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Weather API&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;API for weather functionality within app to share for anglers post&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3940" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-102" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Authentication API&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;API endpoint for angler sign in and sign out.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3355" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-104" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Amazon Web Services Simple Email Service.&lt;/b&gt;&lt;div&gt;[SES]&lt;/div&gt;&lt;div&gt;Security notification emails and password reset&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="230" x="4530" y="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-105" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Open-Meteo&lt;/font&gt;&lt;/b&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;div&gt;Weather information for fishing area and logged catch day&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="260" x="4520" y="2685" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-107" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-102" value="Makes sign in requests to">
+          <mxGeometry relative="1" x="0.0187" as="geometry">
+            <Array as="points">
+              <mxPoint x="3388.2469871794874" y="2360" />
+            </Array>
+            <mxPoint x="3440" y="2260" as="sourcePoint" />
+            <mxPoint x="3360" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-108" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-90" value="Makes request to view account / profile">
+          <mxGeometry relative="1" x="-0.1146" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3250" y="2110" />
+            </Array>
+            <mxPoint x="3290" y="2110" as="sourcePoint" />
+            <mxPoint x="3210" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-109" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.361;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-96" value="Request for password reset">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="3840" y="2290" />
+            </Array>
+            <mxPoint x="3534.01" y="2120" as="sourcePoint" />
+            <mxPoint x="3694.01" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-110" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-96" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="4tVgI-8TqTVYiTWFT8C_-104" value="Sends email requests to registered anglers">
+          <mxGeometry relative="1" width="160" x="0.1591" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="4079.51" y="2627" as="sourcePoint" />
+            <mxPoint x="4575.5" y="2623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-111" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-121" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-94" value="Reads from and writes to">
+          <mxGeometry relative="1" x="0.3142" as="geometry">
+            <Array as="points">
+              <mxPoint x="3212.9487180000006" y="2920" />
+            </Array>
+            <mxPoint x="3195" y="2730" as="sourcePoint" />
+            <mxPoint x="3130" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-112" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-116" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-95" value="Reads from and writes to">
+          <mxGeometry relative="1" x="0.0326" y="-7" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3644.3774999999996" y="2830.0000000000005" />
+            </Array>
+            <mxPoint x="3661" y="2870" as="sourcePoint" />
+            <mxPoint x="3629" y="2910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-115" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-91" value="Request to view">
+          <mxGeometry relative="1" x="-0.1562" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3234.999999999999" y="2175.0000000000005" />
+            </Array>
+            <mxPoint x="3260" y="2240" as="sourcePoint" />
+            <mxPoint x="3180" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-116" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Security Component&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Component for providing functionality to signing in, enforcing user permissions etc&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="3560" y="2720" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-117" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-102" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="4tVgI-8TqTVYiTWFT8C_-116" value="validates credentials">
+          <mxGeometry relative="1" x="-0.2349" as="geometry">
+            <Array as="points">
+              <mxPoint x="3477.31625" y="2470.0000000000005" />
+            </Array>
+            <mxPoint x="3530" y="2490" as="sourcePoint" />
+            <mxPoint x="3450" y="2490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-118" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-96" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-116" value="Validates user account">
+          <mxGeometry relative="1" x="-0.1144" as="geometry">
+            <Array as="points">
+              <mxPoint x="3945.2508823529415" y="2670.0000000000005" />
+            </Array>
+            <mxPoint x="4000" y="2700" as="sourcePoint" />
+            <mxPoint x="3920" y="2700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-119" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-97" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=1;exitDx=10;exitDy=0;exitPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-116" value="Validates access">
+          <mxGeometry relative="1" x="-0.3445" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3815" y="2470.0000000000005" />
+            </Array>
+            <mxPoint x="3760" y="2530" as="sourcePoint" />
+            <mxPoint x="3680" y="2530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-120" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-90" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-116" value="Validates authentication token">
+          <mxGeometry relative="1" x="-0.6478" y="-7" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3252.255" y="2459.0635582822088" />
+            </Array>
+            <mxPoint x="3210" y="2507.96" as="sourcePoint" />
+            <mxPoint x="3130" y="2507.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-121" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontColor=#0000FF;" value="&lt;b&gt;FIN Photo Component&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Component for angler photo upload verify size restriction etc.&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="199.51" x="2745" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-122" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-90" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-121" value="Photo upload">
+          <mxGeometry relative="1" x="-0.2894" as="geometry">
+            <Array as="points">
+              <mxPoint x="2794.634" y="2470.0000000000005" />
+            </Array>
+            <mxPoint x="2850" y="2490" as="sourcePoint" />
+            <mxPoint x="2770" y="2490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-123" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-92" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=10;exitDy=0;exitPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-121" value="Photo upload">
+          <mxGeometry relative="1" x="-0.2894" as="geometry">
+            <Array as="points">
+              <mxPoint x="3210.183" y="2775" />
+            </Array>
+            <mxPoint x="3180.366" y="2770" as="sourcePoint" />
+            <mxPoint x="3180.366" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-124" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="4tVgI-8TqTVYiTWFT8C_-92" value="Upload conservation events">
+          <mxGeometry relative="1" x="-0.68" as="geometry">
+            <Array as="points">
+              <mxPoint x="3299.9387500000003" y="2720.0000000000005" />
+            </Array>
+            <mxPoint x="3320" y="2510" as="sourcePoint" />
+            <mxPoint x="3240" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-126" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-92" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=10;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-97" value="Request access to post">
+          <mxGeometry relative="1" x="-0.5071" y="-4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3484.755" y="2802.5" />
+            </Array>
+            <mxPoint x="3620" y="2510" as="sourcePoint" />
+            <mxPoint x="3540" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-127" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-102" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.75;exitDx=10;exitDy=0;exitPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-92" value="Verify authentication token">
+          <mxGeometry relative="1" x="-0.4439" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3452.5" y="2442.5" />
+            </Array>
+            <mxPoint x="3620" y="2510" as="sourcePoint" />
+            <mxPoint x="3540" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-128" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-102" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=10;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-116" value="Authentication token">
+          <mxGeometry relative="1" x="-0.6724" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3613.5" y="2720" />
+            </Array>
+            <mxPoint x="3657" y="2470" as="sourcePoint" />
+            <mxPoint x="3540" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-129" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-101" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="4tVgI-8TqTVYiTWFT8C_-105" value="Sends weather request">
+          <mxGeometry relative="1" x="0.1561" as="geometry">
+            <Array as="points">
+              <mxPoint x="4269.755" y="2765" />
+            </Array>
+            <mxPoint x="4320" y="2765" as="sourcePoint" />
+            <mxPoint x="4400" y="2765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-130" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="Sends weather response">
+          <mxGeometry relative="1" x="0.1561" as="geometry">
+            <Array as="points">
+              <mxPoint x="4329.51" y="2810" />
+            </Array>
+            <mxPoint x="4519.51" y="2810" as="sourcePoint" />
+            <mxPoint x="4139.51" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-131" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-101" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=-705;" target="4tVgI-8TqTVYiTWFT8C_-79" value="Sends weather response">
+          <mxGeometry relative="1" x="0.4113" y="-11" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3738.639930921053" y="2710" />
+            </Array>
+            <mxPoint x="4596.05" y="2085" as="sourcePoint" />
+            <mxPoint x="4516.05" y="2085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-132" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=1;entryDx=10;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-101" value="Sends weather request&amp;nbsp;">
+          <mxGeometry relative="1" x="-0.5032" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3776.4207558139533" y="2219.9999999999995" />
+            </Array>
+            <mxPoint x="3570" y="2240" as="sourcePoint" />
+            <mxPoint x="4083" y="2775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-133" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-116" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=10;exitDy=0;exitPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-91" value="Fishing post response">
+          <mxGeometry relative="1" x="0.0347" y="6" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="3459.755" y="2442.5" />
+            </Array>
+            <mxPoint x="3670" y="2580" as="sourcePoint" />
+            <mxPoint x="3590" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-135" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-98" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.75;entryDx=10;entryDy=0;entryPerimeter=0;" target="4tVgI-8TqTVYiTWFT8C_-116" value="validates authentication token">
+          <mxGeometry relative="1" x="-0.6716" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3389.754999999999" y="2601.1125571322973" />
+            </Array>
+            <mxPoint x="3640" y="2510" as="sourcePoint" />
+            <mxPoint x="3560" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-136" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-99" value="Interaction request">
+          <mxGeometry relative="1" x="-0.4944" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3687.3775000000005" y="2450.0000000000005" />
+            </Array>
+            <mxPoint x="3650" y="2420" as="sourcePoint" />
+            <mxPoint x="3730" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-137" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="Authentication token to interacter">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3950" y="2450" as="sourcePoint" />
+            <mxPoint x="3800" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4tVgI-8TqTVYiTWFT8C_-138" edge="1" parent="1" source="4tVgI-8TqTVYiTWFT8C_-79" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="4tVgI-8TqTVYiTWFT8C_-98" value="">
+          <mxGeometry relative="1" x="-0.1559" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3320.5012500000003" y="2219.9999999999995" />
+            </Array>
+            <mxPoint x="3370" y="2250" as="sourcePoint" />
+            <mxPoint x="3290" y="2250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
