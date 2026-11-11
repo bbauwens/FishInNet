@@ -8,4 +8,4 @@ def angler_posts(request):
     return render(request, 'fishcommunity/angler_posts.html')
 
 def conservation_info(request):
-    return render(request, 'fishcommunity/conservation.html')
+    return render(request, 'fishcommunity/conservation_info.html')
