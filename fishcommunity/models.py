@@ -1,7 +1,9 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class AnglerPost(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='angler_posts')
     title = models.CharField(max_length=100)
     fish_species = models.CharField(max_length=100)
     lake_name = models.CharField(max_length=100)
@@ -14,24 +16,24 @@ class AnglerPost(models.Model):
     def __str__(self):
         return self.title
 
-class comment(models.Model):
+class Comment(models.Model):
     post = models.ForeignKey(AnglerPost, on_delete=models.CASCADE, related_name='comments')
-    author = models.CharField(max_length=100)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f'Comment by {self.author} on {self.post.title}'
 
-class likes(models.Model):
+class Likes(models.Model):
     post = models.ForeignKey(AnglerPost, on_delete=models.CASCADE, related_name='likes')
-    user = models.CharField(max_length=100)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
-class Meta:
+    class Meta:
         unique_together = ('post', 'user')
 
-    def __str__(self):
+     def __str__(self):
         return f'Like by {self.user} on {self.post.title}'
 
 class AnglerProfile(models.Model):
@@ -41,7 +43,7 @@ class AnglerProfile(models.Model):
     location = models.CharField(max_length=100, blank=True, null=True)
 
     def __str__(self):
-        return self.user
+        return self.user.username
 
 class ConservationInfo(models.Model):
     title = models.CharField(max_length=100)
