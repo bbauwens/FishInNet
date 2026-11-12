@@ -45,7 +45,7 @@ Setting Up the Django App
 ## Getting Started:
 Once you have completed the above installation the app should now be ready to be accessed.
 
-1. Open browser and go to http://localhost:8000/admin/
+1. Open browser and go to http://127.0.0.1:8000/
 (use credentials used above when creating super user)
 
 2. Once logged in you should now be able to:
