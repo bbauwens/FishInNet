@@ -33,7 +33,7 @@ class Likes(models.Model):
     class Meta:
         unique_together = ('post', 'user')
 
-     def __str__(self):
+    def __str__(self):
         return f'Like by {self.user} on {self.post.title}'
 
 class AnglerProfile(models.Model):
